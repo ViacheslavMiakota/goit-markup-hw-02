@@ -136,5 +136,13 @@ span{
     background-color: F5F4FA;
     color: #212121;
 }
-
 /*Список проектів*/
+.project-list {
+    list-style: none;
+}
+.project-name {
+    color: #212121;
+}
+.project {
+    color: #757575;
+}
