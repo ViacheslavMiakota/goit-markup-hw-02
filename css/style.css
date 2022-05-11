@@ -1,25 +1,36 @@
-/*Основной колір тексту #212121 */
+/*Основной колір тексту #757575 */
 
-/*Другорядний колір тексту #757575 */
+/*Другорядний колір тексту #212121 */
 
 /*Колір Веб студіо блакитний #2196F3
  темний #000000; */
  /* Колір тексту білий #FFFFFF */
 /* Колір тексту ссилок футер  rgba(255, 255, 255, 0.6)*/
-
-span{ 
+body {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+.accent{ 
     color: #2196F3;
 }
 .logo{
     color: #000000;
     text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
 }
 .site-nav{
     list-style: none;
 }
 .site-nav .link{
-    color: #212121;
     text-decoration: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -41,10 +52,15 @@ span{
 .hero-title{
     color: #FFFFFF;
     background-color: #212121;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 }
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-size: 16px;
+    line-height: 1.88;
 }
 .button .link:focus,
 .button .link:hover{
@@ -59,18 +75,24 @@ span{
 }
 /*--Feutures--*/
 .feature-list{
-    color: #212121;
     list-style: none;
 }
 .title{
-    color: #212121;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .text{
     color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /* work*/
 .work{
-    color: #212121;
+    font-size: 36px;
+    line-height: 1.17x;
+    letter-spacing: 0.03em;
 }
 .work-logo{
     list-style: none;
@@ -81,24 +103,29 @@ span{
 
 }
 .team{
-    color: #212121;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .team-logo{
     list-style: none;
 }
 .name{
-    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.03em;
 }
 .profession{
     color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.03em;
 }
 /*Footer*/
 .footer{
     background-color: #2F303A;
-}
-.logo-footer{
-    color: #FFFFFF;
-    text-decoration: none;
 }
 .footer-link:hover,
 .footer-link:focus{
@@ -108,13 +135,19 @@ span{
 .footer-link{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6)
-  
+   
+    
 }; 
 .footer-title .adres-link{
     color: #FFFFFF;
-}
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}   
 .footer-title{
-    list-style: none;
+    list-style: none;font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .adres-link:hover,
 .adres-link:focus{
@@ -123,6 +156,9 @@ span{
 .adres-link{
     color: #FFFFFF;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /*Кнопки 2ст*/
 .buttons .link:focus,
@@ -134,15 +170,23 @@ span{
 .buttons{
     list-style: none;
     background-color: F5F4FA;
-    color: #212121;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
 }
 /*Список проектів*/
 .project-list {
     list-style: none;
 }
 .project-name {
-    color: #212121;
+    font-size: 18px;
+    line-height: 2;
 }
 .project {
     color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
