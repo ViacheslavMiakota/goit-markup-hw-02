@@ -13,6 +13,7 @@
   --adres-color: rgba(255, 255, 255, 0.6);
   --button-color: #ffffff;
   --logo-color: #000000;
+  --hero-color: #2f303a;
 }
 body {
   color: var(--primary-text-color);
@@ -62,18 +63,21 @@ body {
   color: var(--accent-color);
 }
 /*--Hero--*/
+.hero {
+  background-color: var(--hero-color);
+}
 .hero-title {
   color: var(--button-color);
-  background-color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   color: var(--button-color);
   background-color: var(--accent-color);
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -82,7 +86,7 @@ body {
 /*--Section--*/
 .section {
 }
-.section-title {
+.visualization {
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-text-color);
@@ -92,6 +96,7 @@ body {
   line-height: 1.14;
   font-size: 14px;
   text-transform: uppercase;
+  color: var(--title-text-color);
 }
 .text {
 }
@@ -101,32 +106,29 @@ body {
   font-weight: 500;
   color: var(--title-text-color);
 }
-.profession .name {
+.profession,
+.name {
   font-size: 16px;
-  line-height: 1.13;
+  line-height: 1.19;
 }
 /*Footer*/
+.addres {
+  font-style: normal;
+}
 .footer {
-  background-color: #2f303a;
+  background-color: var(--hero-color);
+}
+.footer-link[target="blank"] {
+  color: var(--button-color);
 }
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
 }
 .footer-link {
-  text-decoration: none;
   color: var(--adres-color);
 }
-.addres {
-  font-style: normal;
-}
-.adres-link:hover,
-.adres-link:focus {
-  color: var(--accent-color);
-}
-.adres-link {
-  color: var(--button-color);
-}
+
 /*Кнопки 2ст*/
 .filter-button:focus,
 .filter-button:hover {
@@ -141,6 +143,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  font-family: "Roboto";
 }
 /*Список проектів*/
 .project-name {
